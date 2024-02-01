@@ -1,0 +1,8 @@
+.containerr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 300px;
+    margin-inline: 700px;
+}
