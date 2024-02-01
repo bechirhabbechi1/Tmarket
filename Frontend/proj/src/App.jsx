@@ -4,7 +4,9 @@ import Home from './components/home';
 import NewStuff from './components/NewStuff';
 import AboutUs from './components/AboutUs';
 import MyCart from './components/MyCart';
+import Login from "./components/login";
 import './App.css';
+import SignUp from "./components/signup";
 
 
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="Newstuff" element={<NewStuff />} />
           <Route path="Mycart" element={<MyCart />} />
           <Route path="Aboutus" element={<AboutUs />} />
+          <Route path="login" element={<Login />} />
+          <Route path="signup" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </>

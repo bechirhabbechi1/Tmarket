@@ -14,6 +14,7 @@ function Navv() {
         <Nav.Link href='/Newstuff'>New Stuff</Nav.Link>
         <Nav.Link href='/Mycart'>My Cart</Nav.Link>
         <Nav.Link href='/Aboutus'>About Us</Nav.Link>
+        <Nav.Link href='/signup'>Sign in/up</Nav.Link>
       </div>
       <div className='search'>
         <Form className='searchbr'>
